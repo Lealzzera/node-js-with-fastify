@@ -1,5 +1,14 @@
-db/app.db
+# Dependencies
 node_modules
+
+# Enviroments Variables
 .env
 .env.test
+
+# Database
 db/test.db
+db/app.db
+
+
+# Build Folder
+dist
