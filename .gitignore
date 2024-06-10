@@ -6,8 +6,7 @@ node_modules
 .env.test
 
 # Database
-db/test.db
-db/app.db
+db/*.db
 
 
 # Build Folder
