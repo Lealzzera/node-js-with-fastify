@@ -5,7 +5,7 @@
 	"main": "index.js",
 	"scripts": {
 		"dev": "npx tsx --watch src/server.ts",
-		"test": "echo \"Error: no test specified\" && exit 1",
+		"test": "npx vitest",
 		"knex": "node --import tsx ./node_modules/knex/bin/cli.js"
 	},
 	"keywords": [],
@@ -14,8 +14,11 @@
 	"devDependencies": {
 		"@types/knex": "^0.16.1",
 		"@types/node": "^20.14.2",
+		"@types/supertest": "^6.0.2",
+		"supertest": "^7.0.0",
 		"tsx": "^4.11.2",
-		"typescript": "^5.4.5"
+		"typescript": "^5.4.5",
+		"vitest": "^1.6.0"
 	},
 	"dependencies": {
 		"@fastify/cookie": "^9.3.1",
